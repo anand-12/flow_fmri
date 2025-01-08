@@ -1,6 +1,6 @@
 % imagesc(v(:, :, 1, 10))
 [x,y,z,t] = size(v);
- % Animation of all frames
+
 fig = figure;
 btn = uicontrol('Style', 'togglebutton', 'String', 'Pause', 'Position', [20 20 50 20]);
 
